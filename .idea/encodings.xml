@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/data/bei_jing.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/chang_chun.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/chong_qing.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/fu_zhou.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/fu_zhou.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/shen_yang.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/shi_jia_zhuang.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/tai_yuan.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/wu_han.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/xi_an.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data/zheng_zhou.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/ponding.js" charset="UTF-8" />
+  </component>
+</project>

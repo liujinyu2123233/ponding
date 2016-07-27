@@ -2,14 +2,47 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=640, user-scalable=yes" />
     <link rel="stylesheet" href="css/style.css"/>
-    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=fKf2bgsPesz06f6bSPkjbaHR"></script>
-    <script type="text/javascript" src="http://i.tq121.com.cn/j/jquery-1.8.2.js"></script>
+
     <title>地图展示</title>
 </head>
 <body>
-<div id="allmap"></div>
+
+<div class="box">
+    <div class="page3">
+
+        <div class="map_cont">
+            <div class="txt">**有<span>**</span>个路段易出现积水 <br/>
+
+                未来2小时，此处无降雨，无积水。</div>
+            <div class="map_box">
+
+                <div id="allmap" class="map">
+
+                </div>
+                <div class="setzoom">
+                    <a id="setzoom_big" class="setbig" href="javascript:;"></a>
+                    <a id="setzoom_small" class="setsmall" href="javascript:;"></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="btn">
+            <input type="text" class="b1" id="again" value="再查一次"/>
+            <input type="text" class="b2" id="remind" value="提醒朋友"/>
+        </div>
+        <img class="bg" src="./img/bg.png" alt=""/>
+    </div>
+
+</div>
+
+
+
+
+
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=fKf2bgsPesz06f6bSPkjbaHR"></script>
+<script type="text/javascript" src="http://i.tq121.com.cn/j/jquery-1.8.2.js"></script>
 <script src="js/ponding.js"></script>
 </body>
 </html>

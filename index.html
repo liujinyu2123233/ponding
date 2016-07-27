@@ -2,14 +2,43 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" contenstyle.csst="initial-scale=1.0, user-scalable=no" />
+    <!--<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />-->
+    <meta name="viewport" content="width=640, user-scalable=yes" />
     <link rel="stylesheet" href="css/style.css"/>
-    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=fKf2bgsPesz06f6bSPkjbaHR"></script>
-    <script type="text/javascript" src="http://i.tq121.com.cn/j/jquery-1.8.2.js"></script>
-    <title>地图展示</title>
+    <title>积水点</title>
 </head>
 <body>
-<div id="allmap"></div>
-<script src="js/ponding.js"></script>
+
+<div class="box">
+    <div class="page-cont">
+        <div class="page1">
+
+            <img class="logo" src="./img/logo.png" alt=""/>
+            <img class="ind" src="./img/ind.png" alt=""/>
+            <img class="arrow animate-bounce-down" src="./img/arrow.png" alt=""/>
+            <img class="bg" src="./img/bg.png" alt=""/>
+        </div>
+        <div class="page2">
+            <h1>你要查询的城市</h1>
+            <div class="input_cont">
+                <div class="t">
+                    <input type="text" class="prov" value="省份"/>
+                    <input type="text" class="city" value="城市"/>
+                </div>
+                <div class="b">
+                    <input id="setcity" type="button" class="btn" value="确认"/>
+                </div>
+            </div>
+            <img class="arrow animate-bounce-down" src="./img/arrow.png" alt=""/>
+            <img class="bg" src="./img/bg.png" alt=""/>
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=fKf2bgsPesz06f6bSPkjbaHR"></script>
+<script type="text/javascript" src="http://i.tq121.com.cn/j/jquery-1.8.2.js"></script>
+
 </body>
 </html>

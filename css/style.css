@@ -53,8 +53,194 @@ i {
     background-repeat: no-repeat;
     display: block;
 }
-#allmap{
-    width:100%;
+.box{
+    position: fixed;
+    margin: 0 auto;
+    width: 640px;
     height: 100%;
-    position: absolute;
+    text-align: center;
+    line-height: 100%;
 }
+img.bg{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+img.logo{
+    position: absolute;
+    left: 5%;
+    z-index: 1;
+    top: 5%;
+}
+img.ind{
+    position: absolute;
+    width: 480px;
+    height: 621px;
+    margin-left: -240px;
+    margin-top: -310px;
+    left: 50%;
+    top: 50%;
+    display: block;
+    z-index: 1;
+}
+img.arrow{
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    width: 42px;
+    height: 21px;
+    margin-left: -21px;
+}
+@-webkit-keyframes bounce-down {
+    25% {-webkit-transform: translateY(-10px);}
+    50%, 100% {-webkit-transform: translateY(0);}
+    75% {-webkit-transform: translateY(10px);}
+}
+
+@keyframes bounce-down {
+    25% {transform: translateY(-10px);}
+    50%, 100% {transform: translateY(0);}
+    75% {transform: translateY(10px);}
+}
+.animate-bounce-down{ -webkit-animation: bounce-down 1.5s linear infinite;animation: bounce-down 1.5s linear infinite;
+}
+.page-cont{
+    height:200%;
+    width: 100%;
+    position: absolute;
+    top: -100%;
+    left: 0px;
+}
+.page1{
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.page2{
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.page2{}
+.page2 h1{
+    position: absolute;
+    left: 80px;
+    top: 90px;
+    color: #60c1c5;font-size: 40px;
+    font-weight: normal;}
+.page2 .input_cont{position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 500px;
+    height: 260px;
+    margin-left: -250px;margin-top: -130px;
+}
+.page2 .input_cont .t{
+    overflow: hidden;}
+.page2 .input_cont .t input{
+
+    height: 70px;
+    color: #fff;
+    background: #60c1c5;
+    text-indent: 15px;
+    font-size: 28px;
+}
+.page2 .input_cont .t .prov{
+    width: 160px;
+}
+.page2 .input_cont .t .city{
+    width: 270px;
+    margin-left: 40px;
+
+}
+.page2 .input_cont .b{ text-align: center;
+    margin-top: 68px;}
+.page2 .input_cont .b .btn{
+    background: #e58835 none repeat scroll 0 0;
+    border-radius: 35px;
+    color: #fff;
+    font-size: 28px;
+    height: 70px;
+    text-indent: 0;
+    width: 199px;
+}
+.page2{}
+
+.page3 {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    }
+.page3 .map_cont{
+    width: 520px;
+    height: 640px;
+    margin: 0 auto;
+    padding-top: 100px;
+    
+
+
+}
+.page3 .map_cont .txt{
+    background: #60c1c5;
+    height: 94px;
+    line-height: 34px;
+    width: 452px;font-size: 24px;text-align: left;
+    padding: 25px 34px 0 34px;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+    color: #fff;}
+.page3 .map_cont .txt span{
+    color: #e58835;
+}
+.page3 .map_cont .map{
+    width: 520px;
+    height: 520px;}
+.page3 input{background: #e58835 none repeat scroll 0 0;
+    border-radius: 35px;
+    color: #fff;
+    font-size: 28px;
+    cursor: pointer;
+    height: 70px;
+    text-indent: 0;
+    margin: 65px 17px 0;
+    width: 199px;text-align: center}
+.map_box{
+    position: relative;}
+.page3 .setzoom{
+    background: url("../img/icon.png") no-repeat;
+    width: 45px;
+    height: 99px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.setzoom a{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    left: 0;
+    top:0;
+}
+.setzoom .setbig{}
+.setzoom .setsmall{top:50%}
+
+
+#allmap{
+
+}
+.BMap_scaleCtrl { display:block }
+.BMap_noprint.anchorBL { display:block; }
+.BMap_cpyCtrl.BMap_noprint { display:none; }
+.anchorBL { display: none; }
+
