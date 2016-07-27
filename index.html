@@ -5,40 +5,83 @@
     <!--<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />-->
     <meta name="viewport" content="width=640, user-scalable=yes" />
     <link rel="stylesheet" href="css/style.css"/>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- Demo styles -->
     <title>积水点</title>
 </head>
 <body>
 
 <div class="box">
-    <div class="page-cont">
-        <div class="page1">
-
-            <img class="logo" src="./img/logo.png" alt=""/>
-            <img class="ind" src="./img/ind.png" alt=""/>
-            <img class="arrow animate-bounce-down" src="./img/arrow.png" alt=""/>
-            <img class="bg" src="./img/bg.png" alt=""/>
-        </div>
-        <div class="page2">
-            <h1>你要查询的城市</h1>
-            <div class="input_cont">
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img class="logo" src="./img/logo.png" alt=""/>
+                <img class="ind" src="./img/ind.png" alt=""/>
+                <img class="arrow animate-bounce-down" src="./img/arrow.png" alt=""/>
+                <img class="bg" src="./img/bg.png" alt=""/>
+            </div>
+            <div class="swiper-slide page2 swiper-no-swiping">
+                <h1>你要查询的城市</h1>
+                <div class="input_cont">
                 <div class="t">
-                    <input type="text" class="prov" value="省份"/>
-                    <input type="text" class="city" value="城市"/>
+                <input type="text" class="prov" value="省份"/>
+                <input type="text" class="city" value="城市"/>
                 </div>
                 <div class="b">
-                    <input id="setcity" type="button" class="btn" value="确认"/>
+                <input id="setcity" type="button" class="btn" value="确认"/>
                 </div>
+                </div>
+                <img class="bg" src="./img/bg.png" alt=""/>
             </div>
-            <img class="arrow animate-bounce-down" src="./img/arrow.png" alt=""/>
-            <img class="bg" src="./img/bg.png" alt=""/>
+
         </div>
+
     </div>
+
+
+
+    <!--<div class="page-cont">-->
+        <!--<div class="page1">-->
+
+            <!--<img class="logo" src="./img/logo.png" alt=""/>-->
+            <!--<img class="ind" src="./img/ind.png" alt=""/>-->
+            <!--<img class="arrow animate-bounce-down" src="./img/arrow.png" alt=""/>-->
+            <!--<img class="bg" src="./img/bg.png" alt=""/>-->
+        <!--</div>-->
+        <!--<div class="page2">-->
+            <!--<h1>你要查询的城市</h1>-->
+            <!--<div class="input_cont">-->
+                <!--<div class="t">-->
+                    <!--<input type="text" class="prov" value="省份"/>-->
+                    <!--<input type="text" class="city" value="城市"/>-->
+                <!--</div>-->
+                <!--<div class="b">-->
+                    <!--<input id="setcity" type="button" class="btn" value="确认"/>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<img class="arrow animate-bounce-down" src="./img/arrow.png" alt=""/>-->
+            <!--<img class="bg" src="./img/bg.png" alt=""/>-->
+        <!--</div>-->
+    <!--</div>-->
 </div>
 
 
 
 <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=fKf2bgsPesz06f6bSPkjbaHR"></script>
 <script type="text/javascript" src="http://i.tq121.com.cn/j/jquery-1.8.2.js"></script>
+<!-- Swiper JS -->
+<script src="js/swiper.jquery.min.js"></script>
 
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        direction: 'vertical'
+    });
+</script>
 </body>
 </html>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/css/sm-extend.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/sm.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/style.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/swiper.min.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/data/bei_jing.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/data/chang_chun.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/data/chong_qing.json" charset="UTF-8" />
@@ -12,6 +16,13 @@
     <file url="file://$PROJECT_DIR$/data/wu_han.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/data/xi_an.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/data/zheng_zhou.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/picker.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/js/ponding.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/sm-city-picker.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/sm-extend.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/sm.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/swiper.jquery.min.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/swiper.min.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/zepto.js" charset="UTF-8" />
   </component>
 </project>
