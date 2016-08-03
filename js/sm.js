@@ -18,7 +18,7 @@
 
     $.smConfig = $.extend(defaults, $.config);
 
-}(Zepto);
+}(jQuery);
 
 + function($) {
     "use strict";
@@ -46,7 +46,7 @@
         return $(".page-current")[0] || $(".page")[0] || document.body;
     };
 
-}(Zepto);
+}(jQuery);
 
 /* global WebKitCSSMatrix:true */
 
@@ -288,7 +288,7 @@
             this.style.display = defaultDisplay(this.nodeName);
         });
     };
-})(Zepto);
+})(jQuery);
 
 /*===========================
  Device/OS Detection
@@ -395,7 +395,7 @@
     device.isWeixin = /MicroMessenger/i.test(ua);
 
     $.device = device;
-})(Zepto);
+})(jQuery);
 
 ;(function () {
     'use strict';
@@ -1698,7 +1698,7 @@
         modalPreloaderTitle: '加载中',
         modalContainer : document.body
     };
-}(Zepto);
+}(jQuery);
 
 /*======================================================
  ************   Calendar   ************
@@ -2523,7 +2523,7 @@
             $(this).calendar();
         });
     };
-}(Zepto);
+}(jQuery);
 
 /*======================================================
  ************   Picker   ************
@@ -3111,7 +3111,7 @@
             }
         });
     };
-}(Zepto);
+}(jQuery);
 
 /* jshint unused:false*/
 
@@ -3216,7 +3216,7 @@
         });
     };
 
-}(Zepto);
+}(jQuery);
 
 + function(window) {
 
@@ -5609,7 +5609,7 @@
         }
     };
 
-}(Zepto);
+}(jQuery);
 
 /* ===============================================================================
  ************   Tabs   ************
@@ -5708,7 +5708,7 @@
     });
 
 
-}(Zepto);
+}(jQuery);
 
 /* ===============================================================================
  ************   Tabs   ************
@@ -5795,7 +5795,7 @@
 
 
 
-}(Zepto);
+}(jQuery);
 
 + function($) {
     "use strict";
@@ -5882,7 +5882,7 @@
         "pullToRefreshTrigger": pullToRefreshTriggerJS,
         "destroyPullToRefresh": destroyPullToRefreshJS,
     };
-}(Zepto); // jshint ignore:line
+}(jQuery); // jshint ignore:line
 
 + function($) {
     'use strict';
@@ -6095,7 +6095,7 @@
      };
      */
 
-}(Zepto); //jshint ignore:line
+}(jQuery); //jshint ignore:line
 
 + function($) {
     'use strict';
@@ -6156,7 +6156,7 @@
         }
         pageContainer.on('pageBeforeRemove', detachEvents);
     };
-}(Zepto);
+}(jQuery);
 
 +function ($) {
     "use strict";
@@ -6174,7 +6174,7 @@
             $input.parents(".searchbar").removeClass("searchbar-active");
         });
     });
-}(Zepto);
+}(jQuery);
 
 /*======================================================
  ************   Panels   ************
@@ -6495,7 +6495,7 @@
     };
 
     $.initSwipePanels();
-}(Zepto);
+}(jQuery);
 
 /**
  * 路由
@@ -7444,7 +7444,7 @@
             }
         });
     });
-}(Zepto);
+}(jQuery);
 
 /**
  * @typedef {Object} State
@@ -7515,7 +7515,7 @@
             });
         }
     };
-}(Zepto);
+}(jQuery);
 
 /*jshint unused: false*/
 +function($) {
@@ -7618,7 +7618,7 @@
         });
     });
 
-}(Zepto);
+}(jQuery);
 
 /**
  * ScrollFix v0.1
@@ -7682,7 +7682,7 @@
         initScrollFix();
     }
 
-}(Zepto);
+}(jQuery);
 /**
  * Created by liu on 2016/7/27.
  */

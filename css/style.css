@@ -141,17 +141,30 @@ img.arrow{
 }
 .page2 .input_cont .t{
     overflow: hidden;}
-.page2 .input_cont .t input{
+.page2 .input_cont .t input,.page2 .input_cont .sele{
 
     height: 70px;
     color: #fff;
     background: #60c1c5;
     text-indent: 15px;
     font-size: 28px;
+    position: relative;
+    float: left;
+
 }
+
+
 .page2 .input_cont .t .prov{
     width: 160px;
+    overflow-y: scroll;
 }
+.page2 .input_cont .t .prov ul{
+}
+.page2 .input_cont .t .prov ul li{
+    line-height: 70px;
+    text-align: center;
+}
+
 .page2 .input_cont .t .city{
     width: 270px;
     margin-left: 40px;

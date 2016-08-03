@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="css/style.css"/>
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/sm.css">
+    <link rel="stylesheet" href="css/sm-extend.css">
+
 
     <!-- Demo styles -->
     <title>积水点</title>
@@ -27,7 +30,22 @@
                 <h1>你要查询的城市</h1>
                 <div class="input_cont">
                 <div class="t">
-                <input type="text" class="prov" value="省份"/>
+                    <!--<div class="prov sele">-->
+                        <!--<ul>-->
+                            <!--<li>北京</li>-->
+                            <!--<li>北京</li>-->
+                            <!--<li>北京</li>-->
+                            <!--<li>北京</li>-->
+                            <!--<li>北京</li>-->
+                            <!--<li>北京</li>-->
+                            <!--<li>北京</li>-->
+                            <!--<li>北京</li>-->
+                            <!--<li>北京</li>-->
+                        <!--</ul>-->
+                    <!--</div>-->
+                    <input id="picker" type="text" class="prov" value="省份"/>
+
+
                 <input type="text" class="city" value="城市"/>
                 </div>
                 <div class="b">
@@ -74,6 +92,10 @@
 <script type="text/javascript" src="http://i.tq121.com.cn/j/jquery-1.8.2.js"></script>
 <!-- Swiper JS -->
 <script src="js/swiper.jquery.min.js"></script>
+
+<script src="js/sm.js"></script>
+<!--<script src="js/zepto.js"></script>-->
+<script src='js/picker.js'></script>
 
 <!-- Initialize Swiper -->
 <script>
