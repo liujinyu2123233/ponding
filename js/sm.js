@@ -18,7 +18,7 @@
 
     $.smConfig = $.extend(defaults, $.config);
 
-}(jQuery);
+}(Zepto);
 
 + function($) {
     "use strict";
@@ -46,7 +46,7 @@
         return $(".page-current")[0] || $(".page")[0] || document.body;
     };
 
-}(jQuery);
+}(Zepto);
 
 /* global WebKitCSSMatrix:true */
 
@@ -288,7 +288,7 @@
             this.style.display = defaultDisplay(this.nodeName);
         });
     };
-})(jQuery);
+})(Zepto);
 
 /*===========================
  Device/OS Detection
@@ -395,7 +395,7 @@
     device.isWeixin = /MicroMessenger/i.test(ua);
 
     $.device = device;
-})(jQuery);
+})(Zepto);
 
 ;(function () {
     'use strict';
@@ -1698,7 +1698,7 @@
         modalPreloaderTitle: '加载中',
         modalContainer : document.body
     };
-}(jQuery);
+}(Zepto);
 
 /*======================================================
  ************   Calendar   ************
@@ -2523,7 +2523,7 @@
             $(this).calendar();
         });
     };
-}(jQuery);
+}(Zepto);
 
 /*======================================================
  ************   Picker   ************
@@ -3111,7 +3111,7 @@
             }
         });
     };
-}(jQuery);
+}(Zepto);
 
 /* jshint unused:false*/
 
@@ -3216,7 +3216,7 @@
         });
     };
 
-}(jQuery);
+}(Zepto);
 
 + function(window) {
 
@@ -3513,7 +3513,7 @@
 
             snapThreshold: 0.334,
 
-            // INSERT POINT: OPTIONS
+            // INSERT POINT: OPTIONS 
 
             startX: 0,
             startY: 0,
@@ -3579,7 +3579,7 @@
 
         // INSERT POINT: NORMALIZATION
 
-        // Some defaults
+        // Some defaults    
         this.x = 0;
         this.y = 0;
         this.directionX = 0;
@@ -5609,7 +5609,7 @@
         }
     };
 
-}(jQuery);
+}(Zepto);
 
 /* ===============================================================================
  ************   Tabs   ************
@@ -5708,7 +5708,7 @@
     });
 
 
-}(jQuery);
+}(Zepto);
 
 /* ===============================================================================
  ************   Tabs   ************
@@ -5795,7 +5795,7 @@
 
 
 
-}(jQuery);
+}(Zepto);
 
 + function($) {
     "use strict";
@@ -5882,7 +5882,7 @@
         "pullToRefreshTrigger": pullToRefreshTriggerJS,
         "destroyPullToRefresh": destroyPullToRefreshJS,
     };
-}(jQuery); // jshint ignore:line
+}(Zepto); // jshint ignore:line
 
 + function($) {
     'use strict';
@@ -6095,7 +6095,7 @@
      };
      */
 
-}(jQuery); //jshint ignore:line
+}(Zepto); //jshint ignore:line
 
 + function($) {
     'use strict';
@@ -6156,7 +6156,7 @@
         }
         pageContainer.on('pageBeforeRemove', detachEvents);
     };
-}(jQuery);
+}(Zepto);
 
 +function ($) {
     "use strict";
@@ -6174,7 +6174,7 @@
             $input.parents(".searchbar").removeClass("searchbar-active");
         });
     });
-}(jQuery);
+}(Zepto);
 
 /*======================================================
  ************   Panels   ************
@@ -6495,7 +6495,7 @@
     };
 
     $.initSwipePanels();
-}(jQuery);
+}(Zepto);
 
 /**
  * 路由
@@ -7444,7 +7444,7 @@
             }
         });
     });
-}(jQuery);
+}(Zepto);
 
 /**
  * @typedef {Object} State
@@ -7515,7 +7515,7 @@
             });
         }
     };
-}(jQuery);
+}(Zepto);
 
 /*jshint unused: false*/
 +function($) {
@@ -7618,7 +7618,7 @@
         });
     });
 
-}(jQuery);
+}(Zepto);
 
 /**
  * ScrollFix v0.1
@@ -7682,7 +7682,4 @@
         initScrollFix();
     }
 
-}(jQuery);
-/**
- * Created by liu on 2016/7/27.
- */
+}(Zepto);
