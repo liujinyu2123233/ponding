@@ -80,7 +80,7 @@
     var val_citys=[]
     $('#picker-city').click(function(){
         var prov = $("#picker-prov").val();console.log(prov)
-        var arr = rel_data[prov].d
+        var arr = rel_data[prov] && rel_data[prov].d || [];
         val_citys = [];
         for(var i= 0,len=arr.length;i<len;i++){
             val_citys.push(arr[i].n);
@@ -108,11 +108,15 @@
         cols: [
             {
                 textAlign: 'center',
-                rotateEffect:true,
-
                 values: ['北京', '重庆', '河北','陕西','河南','辽宁','吉林','福建','湖北','','','','','','','',]
+            },
+            {
+                textAlign: 'center',
+                values: ['杰伦', '磊', '明', '小鹏', '燕姿', '菲菲', 'Baby']
             }
         ]
     })
+    //$("#picker-prov").picker('open')
+    //$("#picker-prov").picker("setValue", ["北京", "明"])
 
 })($)
