@@ -7409,7 +7409,7 @@
         if (!$pages.length) {
             var warnMsg = 'Disable router function because of no .page elements';
             if (window.console && window.console.warn) {
-                console.warn(warnMsg);
+                //console.warn(warnMsg);
             }
             return;
         }
